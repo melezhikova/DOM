@@ -1,0 +1,26 @@
+body {
+  color: #999;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 256px;
+}
+
+.cell {
+  background-color: green;
+  border: 1px solid black;
+  box-sizing: border-box;
+  width: 64px;
+  height: 64px;
+}
+
+.character {
+  background-image: url("../img/goblin.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
